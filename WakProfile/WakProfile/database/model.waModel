@@ -1,0 +1,85 @@
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Profiles": {
+				"panelColor": "#B7DDE8",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 269,
+						"Y": 111
+					}
+				}
+			},
+			"Profile": {
+				"panelColor": "#eee",
+				"panel": {
+					"pathVisible": true,
+					"isOpen": "true",
+					"position": {
+						"X": 69,
+						"Y": 36
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Profile",
+			"className": "Profile",
+			"collectionName": "ProfileCollection",
+			"matchTable": "Profile,Profiel",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "firstname",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "lastname",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "street",
+					"kind": "storage",
+					"matchColumn": "address",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "city",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "country",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			]
+		}
+	]
+}

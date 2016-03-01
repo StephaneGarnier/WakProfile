@@ -1,0 +1,1 @@
+﻿[{"dataTableNum":1,"tableName":"Profile","dataTableID":"70E1319DB42B4845B7B37455A4A43DDD","fields":[{"fieldName":"ID","posInRecord":1},{"fieldName":"firstname","posInRecord":2},{"fieldName":"lastname","posInRecord":3},{"fieldName":"street","posInRecord":4},{"fieldName":"avatar","posInRecord":5},{"fieldName":"city","posInRecord":6},{"fieldName":"country","posInRecord":7}]}]
